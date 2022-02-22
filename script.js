@@ -1,11 +1,6 @@
 let display = document.getElementById("textdisplay");
 let buttons = Array.from(document.getElementsByClassName("button"));
 let changeBracket = 1;
-// buttons.map( button => {
-//     button.addEventListener('click', (e) => {
-//     console.log(buttons);
-//     });
-// });
 buttons.map((button) => {
   button.addEventListener("click", (e) => {
     switch (e.target.innerText) {
