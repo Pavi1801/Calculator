@@ -21,7 +21,6 @@ buttons.map((button) => {
       case "←":
         if (display.innerText) {
           display.innerText = display.innerText.slice(0, -1);
-          changeBracket = 1;
         }
         break;
       case "()":
